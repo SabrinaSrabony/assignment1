@@ -7,10 +7,16 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-nav .nan-logo{
-    width: 139px;
-    height: 60px;
+.container{
+    width: 85%;
+    max-width: 1360px;
+    margin:  0px auto;
 }
+.section-heading{
+    text-align: center;
+    margin: 0 auto;
+}
+
 .btn{
     background-color: #469165;
     border: none;
@@ -19,14 +25,24 @@ nav .nan-logo{
     font-size: 16px;
     font-weight: 600px;
     color: #FFFFFF;
-;
+    cursor: pointer;
+    align-items: center;
 }
+
 header{
     background-color: #FFFFFF;
+    /* background: url(../assets/hero-bg.png);
+    background-position: center;
+    background-color:#FFFFFF;
+    background-size: cover; */
 }
-nav{
-    width: 1360px;
-    max-width: 1600px;
+nav .nav-logo{
+    width: 139px;
+    height: 60px;
+}
+.navbar{
+    /* width: 1360px;
+    max-width: 1600px; */
     display: flex;
     justify-content: space-between;
     padding: 16px 120px 16px 120px;
@@ -34,7 +50,7 @@ nav{
 }
 nav .menu{
     display: flex;
-    list-style-type: none;
+    list-style: none;
     gap: 32px;
     align-items: center;
 }
@@ -42,4 +58,164 @@ nav .menu a{
     font-size: 16px;
     color: #000000;
     text-decoration: none;
+}
+#banner {
+    /* padding: 115px 120px 179px 120px; */
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    background: url(../assets/hero-bg.png);
+    background-position: center;
+    background-color:#FFFFFF;
+    background-size: cover;
+    height: 674px;
+}
+#banner .banner-content{
+    width: 770px;
+    /* height: 168px; */
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: 0 auto;
+}
+#banner .banner-content .access{
+    background-color: #FFFFFF;
+    width: 229px;
+    height: 35px;
+    padding: 8px 12px;
+    color: #469165;
+    border-radius:1000px;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+#banner .banner-content h1{
+    font-size: 72px;
+    font-weight: bold;
+    /* align-items: center; */
+    color:#FFFFFF;
+    /* height: 84px; */
+    align-items: center;
+    margin-bottom: 16px;
+}
+.banner-content span{
+    color: #469165;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#FFFFFF;
+    margin-top: 16px;
+    /* align-items: center; */
+}
+/* #banner .banner-image img{
+    max-width: 1363px;
+    vertical-align: middle;
+} */
+.buttons{
+    display: flex;
+    gap: 16px;
+    /* text-align: center; */
+}
+/* .buttons .btn a{
+    font-size: 16px;
+    width: 600px;
+    height: 100%;
+} */
+.buttons .btn2 a{
+    width: 198px;
+    border: 1px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: 1px solid #FFFFFF;
+}
+#notes{
+    margin-top: 0;
+    padding-top: 40px;
+} 
+#notes .notes-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    /* text-align: center; */
+} 
+.notes-container .section-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931;
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+
+}
+.notes-container .section-heading p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    /* height: 20px; */
+    /* padding-top: 16px ;
+    padding-bottom: 44px;
+    text-align: center;
+    justify-content: center; */
+}
+.note-box{
+    width: 1360px;
+    /* max-width: 100%; */
+    margin-top: 44px;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+.note-box .info-card{
+    padding-top: 69px;
+    box-shadow: 0 8px 14px #00000015;
+    background-color:#FFFFFF;
+    max-width: 322px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* .not-contain{
+    text-align: center;
+} */
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F95555;
+    /* margin: 0 auto 16px; */
+    padding: 24px;
+ }
+.info-card img{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    margin-bottom: 16px;
+    object-fit: contain;
+}
+.info-card h4{
+    font-weight: 600;
+    font-size: 24px;
+    align-items: center;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center;
+    padding-top: 16px;
+}
+.info-card p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    /* padding: 16px 24px 69px 24px; */
+    align-items: center;
 }
