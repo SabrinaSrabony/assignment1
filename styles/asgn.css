@@ -228,12 +228,6 @@ nav .menu a{
     align-items: center;
     /* padding-top: 40px; */
 } 
-.solution .solution-left{
-    /* width: 85%;
-    max-width: 1360px; */
-    /* display: flex;
-    gap: 60px; */
-}
 .solution-right{
     width: 700px;
     align-items: center;
