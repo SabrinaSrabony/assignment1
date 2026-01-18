@@ -219,3 +219,57 @@ nav .menu a{
     /* padding: 16px 24px 69px 24px; */
     align-items: center;
 }
+.solution{
+    width: 85%;
+    max-width: 1360px;
+    margin: 120px auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    /* padding-top: 40px; */
+} 
+.solution .solution-left{
+    /* width: 85%;
+    max-width: 1360px; */
+    /* display: flex;
+    gap: 60px; */
+}
+.solution-right{
+    width: 700px;
+}
+.solution-right h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.solution-right h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.solution-right p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.solution-right ul{
+    width: 700px;
+    height: 20px;
+}
+.solution-right li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.solution-right li .cir{
+    width: 20px;
+    height: 20px;
+    /* margin-bottom: 16px; */
+}
