@@ -129,7 +129,11 @@ nav .menu a{
     border: 1px;
     border-radius: 4px;
     padding: 12px 16px;
-    background-color: 1px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
 }
 #notes{
     margin-top: 0;
@@ -255,6 +259,8 @@ nav .menu a{
 .solution-right ul{
     width: 700px;
     height: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .solution-right li{
     list-style: none;
@@ -262,7 +268,7 @@ nav .menu a{
     line-height: 20px;
     font-weight: 500;
     color: #001931;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
 }
 .solution-right li .cir{
     width: 20px;
@@ -326,4 +332,73 @@ nav .menu a{
     width: 20px;
     height: 20px;
     display: block;
+}
+footer{
+    background-color: #001931;
+    width: 1600px;
+    height: 348px;
+    padding: 120px 120px 30px 120px;
+    margin: 0 auto;
+}
+.footer-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-section{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left img{
+    width: 139px;
+    height: 60px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-right h6{
+    width: 113px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.social-icon a{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.social-icon i{
+    color: #000000;
+}
+.last{
+    width: 1360px;
+    height: 54px;
+}
+.last p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    color: #FAFAFA;
+    margin: 110px 120px 30px 120px;
 }
